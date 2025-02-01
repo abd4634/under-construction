@@ -1,0 +1,9 @@
+{
+    "name": "vendor/under-construction", 
+    "description": "A project under construction",
+    "require": {
+      "php": ">=7.4"
+    }
+  }
+  
+  
