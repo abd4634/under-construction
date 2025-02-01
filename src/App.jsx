@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import UC from './Layout/uc'
 import ComingSoon from './Layout/uc'
 
 function App() {
@@ -9,7 +8,12 @@ function App() {
 
   return (
     <>
+      <Router>
       <ComingSoon/>
+        
+    </Router>
+
+      
     </>
   )
 }
